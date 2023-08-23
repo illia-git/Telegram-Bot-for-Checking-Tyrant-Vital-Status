@@ -1,0 +1,20 @@
+{
+  "name": "tyrant-vital-status-checker",
+  "version": "1.0.0",
+  "description": "A Telegram bot to check the vital status of tyrants using Wikipedia data.",
+  "main": "bot.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["telegram", "bot", "tyrant", "vital-status", "wikipedia"],
+  "author": "illia-git",
+  "license": "no-license",
+  "dependencies": {
+    "compromise": "^14.10.0",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^0.26.0"
+  }
+}
